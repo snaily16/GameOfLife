@@ -23,6 +23,7 @@ Every cell interacts with its eight neighbours, which are the cells that are hor
 7. Glider
 8. Glider-Gun
 9. Heart
+10. Pulsar
 
 ### Still-life patterns
 1. Block
@@ -35,5 +36,6 @@ Every cell interacts with its eight neighbours, which are the cells that are hor
 Demo of Code: https://editor.p5js.org/snaily16/full/yYPBNmpRk
 
 I have used *p5js* to implement Game of Life.
+Game of Life algorithm is in ```gameoflife.js``` file.
 Patterns are added in ```pattern.js``` file with its x and y co-ordinates. 
 You can add your own pattern co-ordinates to this file and edit the ```options``` list by adding pattern name in ```sketch.js (line no: 50)``` 
